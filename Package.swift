@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "Element",
 	dependencies: [
-		.Package(url: "https://github.com/eonist/swift-utils.git", Version(0, 0, 0, prereleaseIdentifiers: ["alpha", "6"]))
+        .package(url: "https://github.com/ZuopanYao/swift-utils.git", from: "1.0.0")
     ],
 	exclude: ["README.md"]
 ) 
